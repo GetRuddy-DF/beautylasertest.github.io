@@ -186,6 +186,7 @@ header #logo span {
     border-radius: 1px solid;
     background-color: #fff;
     color: #000;
+    cursor: pointer;
 }
 #sale p {
     color: #fff;
@@ -219,13 +220,13 @@ header #logo span {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 458px) {
     #sale p {
-        font-size: 25px;
+        font-size: 15px;
         padding: 10px 0;
     }
     #sale h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
     header #logo span {
         font-size: 55px;
@@ -234,14 +235,14 @@ header #logo span {
 }
 @media screen and (max-width: 768px) {
     #sale p {
-        font-size: 30px;
+        font-size: 25px;
         padding: 10px 0;
     }
     #sale h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
     header #logo span {
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 @media screen and (max-width: 415px) {
@@ -454,6 +455,11 @@ td {
     padding-bottom: 20px;
 }
 
+.feedback__card h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
 .feedback__title p {
     padding: 10px 20px;
     max-width: 350px;
@@ -478,8 +484,9 @@ td {
 }
 @media screen and (max-width: 768px) {
     .clients ul li {
+        text-align: left;
         font-size: 20px;
-        padding: 0 10px;
+        padding: 0 20px;
     }
 }
 

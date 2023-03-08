@@ -4,7 +4,8 @@ function slowScroll(id) {
         scrollServices: $(id).offset().services,
         scrollPrice: $(id).offset().price,
         scrollAdvantages: $(id).offset().advantages,
-        scrollMaster: $(id).offset().master
+        scrollMaster: $(id).offset().master,
+        scrollContacts: $(id).offset().contacts
     }, 500);
 }
 
