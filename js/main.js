@@ -1,7 +1,7 @@
 function slowScroll(id) {
     $('html, body') .animate({
         scrollTop: $(id).offset().top,
-        scrollServices: $(id).offset().services,
+        scrollPeeling: $(id).offset().peeling,
         scrollPrice: $(id).offset().price,
         scrollAdvantages: $(id).offset().advantages,
         scrollMaster: $(id).offset().master,

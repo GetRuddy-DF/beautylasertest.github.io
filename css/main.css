@@ -173,7 +173,7 @@ header #logo span {
 /* ////////////////////////////////////////////////////////SLIDER////////////////////////////////////// */
 #sale {
     margin-top: 240px;
-    background-color: #DB7093;
+    background-color: #556B2F;
     width: 100%;
     height: 300px;
     text-align: center;
@@ -263,7 +263,7 @@ header #logo span {
 #top {
     width: 100%;
     text-align: center;
-    padding: 80px;
+    padding: 40px 0;
     background-color: aliceblue;
 }
 
@@ -278,7 +278,7 @@ header #logo span {
     display: grid;
     margin: 0 auto;
     max-width: 500px;
-    padding: 20px 0;
+    padding: 0 20px;
 }
 
 .descr p {
@@ -306,7 +306,7 @@ header #logo span {
 
 #services ._title {
     text-align: center;
-    font-size: 45px;
+    font-size: 5px;
 }
 
 #services .sub__title {
@@ -319,14 +319,20 @@ header #logo span {
 .card {
     padding: 100px 0;
 }
-
+.card__details {
+    font-size: 20px;
+    padding: 10px;
+}
 .card__item {
     box-shadow: 10px 5px 5px #e9e9e9;
     width: 250px;
     margin: 0 auto;
+    border-radius: 50px;
     background-color: aliceblue;
 }
-
+.card__item img {
+    border-radius: 50%;
+}
 .card__price {
     font-size: 22px;
     align-items: center;
@@ -351,6 +357,8 @@ header #logo span {
 .card__title {
     padding: 15px 10px;
     font-size: 20px;
+    font-weight: 400;
+    font-style: bold;
     text-transform: uppercase;
 }
 
@@ -418,6 +426,7 @@ td {
 #advantages {
     background-color: aliceblue;
     text-align: center;
+    padding: 30px 0;
 }
 
 .advantage_title  {
@@ -822,6 +831,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .peeling-descr {
+    padding: 0 20px;
     text-align: left;
     display: grid;
     margin: 0 auto;
@@ -860,18 +870,12 @@ h1, h2, h3, h4, h5 {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #f1f1f1;
-    min-width: 300px;
+    width: 100%;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-}
-
-.dropdown-content p {
-    font-size: 20px;
-    padding: 20px;
-    color: #000;
 }
 
 .dropdown-content h2 {
@@ -889,4 +893,66 @@ h1, h2, h3, h4, h5 {
     .descr {
         font-size: 20px;
     }
+}
+
+/* /////////FOOTER */
+
+footer {
+    padding-top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content span {
+    padding-top: 20px;
+
+}
+.footer-content h3 {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.footer-content p {
+    font-size: 20px;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0 40px 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+.social a {
+    color: #fff;
+}
+.social a i {
+    font-size: 30px;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+}
+@media screen and (max-width:768px) {
+
 }
