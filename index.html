@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div id="logo" onclick="slowScroll('#top')">
+        <div id="logo" onclick="slowScroll('#master')">
             <span>BEAUTY LASER</span>
         </div>
         <div class="sublogo">
@@ -19,381 +19,52 @@
         </div>
         <div class="menu">
             <div id="about">
-                <a title="услуги" onclick="slowScroll('#peeling')">услуги</a>
-                <a title="прайс" onclick="slowScroll('#price')">прайс</a>
-                <a title="преимущества" onclick="slowScroll('#advantages')">преимущества</a>
-                <a title="мастер" onclick="slowScroll('#master')">мастер</a>
+                <a title="услуги" onclick="slowScroll('#master')">обо мне</a>
+                <a title="прайс" onclick="slowScroll('#top')">прайс</a>
+                <a title="отзывы" onclick="slowScroll('#feedback')">отзывы</a>
+                <a title="записаться" onclick="slowScroll('#contacts')">записаться</a>
             </div>
             <div class="humburger">
                 <span></span>
             </div>
         </div>
     </header>
-    <div id="sale">
-        <div class="slider__sale">
-            <p>профессиональная лазерная эпиляция</p>
-            <h1>скидка 30% на первую процедуру</h1>
-            <div class="button">
-                <a onclick="slowScroll('#contacts')">записаться</a>
-            </div>
+    <div id="master">
+        <div class="master__image">
+            <img src="assets/profile.webp" alt="">
         </div>
-    </div>
-    <div id="top">
-        <div id="intro">
-            <h2>что такое лазерная эпиляция:</h2>
+        <div class="master-name">
+            <strong>Вера Сарсекеева</strong>
+            <p>Дипломированный специалист с косметологическим образованием</p>
         </div>
-        <div class="descr">
-            <p><strong>лазерная эпиляция</strong>- это один из методов удаления нежелательных
-            волос. Под воздействием лазера волосяной фолликул разрушается без
-        последующего восстановления.</p>
-        <p>После процедуры волос полностью высыпается через 10-14 дней.
-            <strong>Результат виден сразу после первой процедуры</strong></p>
-        <p>Поддерживающие процедуры необходимо делать 1-2 раза в год.
-        </p>
-        </div>
-    </div>
-    <div id="peeling">
-        <div class="intro">
-            <h2>что такое пилинг:</h2>
-        </div>
-        <div class="peeling-descr">
-            <p>Пилинг – процедура очистки лица, призванная <strong>улучшить внешний вид и состояние кожи.</strong> Существуют различные разновидности пилингов, одна из которых выполняется с помощью специальных химических составов, которые растворяют ороговевшие клетки кожи.</p>
-        </div>
-        <div class="dropdown">
-            <a class="dropbtn" onclick="dropDown()">подробнее</a>
-            <div id="myDropdown" class="dropdown-content">
-                <h2>Виды пилингов:</h2>
-                <div id="services">
-                    <div class="services__container">
-                     <div class="card__item">
-                         <img src="https://irinakhrustaleva.com/upload/medialibrary/6c5/6c5242f28f68389ed4026d3e52daf894.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">карбоновый пилинг</h3>
-                             <p class="card__price">8000 тг</p>
-                             <div class="card__details">
-                                <p>Карбоновый пилинг – безопасная, безболезненная нетравматичная процедура, которая оказывает выраженный омолаживающий эффект. Карбоновый пилинг прекрасно сочетается практически со всеми косметическими процедурами – контурной пластикой, ботулинотерапией, мезотерапией и биоревитализацией и другими.</p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://beauty-medicine.ru/wp-content/uploads/2019/07/img-uslugi-007.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">салициловый пилинг</h3>
-                             <p class="card__price">5000 тг</p>
-                             <div class="card__details">
-                                <strong>Чем полезен салициловый пилинг?</strong><br>
-                                <p>Эта процедура выравнивает рельеф и цвет кожных покровов, обладает мощным антисептическим действием, выраженными очищающими свойствами, способствует нормализации работы сальных желез и сужению пор.</p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://ooo-medicina.ru/wp-content/uploads/2019/08/2bAPth_10.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">миндальный пилинг</h3>
-                             <p class="card__price">5000 тг</p>
-                             <div class="card__details">
-                                <p>Миндальный пилинг дает выраженный лифтинг-эффект. После процедуры активизируется клеточное обновление за счет выработки коллагена и эластина, разглаживаются неглубокие морщинки. Кислота, разрыхляя верхние кожные слои, удаляет, отшелушивает ненужные частички кожи.</p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://lanita.ru/wp-content/uploads/2015/06/071_zoom.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">гликолевый пилинг</h3>
-                             <p class="card__price">5 000 тг</p>
-                             <div class="card__details">
-                                <strong>Какой эффект дает гликолевый пилинг?</strong><br>
-                                <p>Использование гликолевых кислот улучшает тон и рельеф лица и контролирует выработку кожного сала за счет отшелушивания верхнего слоя эпидермиса. Клетки кожи обновляются, осветляя пигментные пятна и придавая коже сияние. Процедура также глубоко очищает поры и при регулярном проведении предостерегает от их закупоривания.</p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://salon-lanet.ru/upload/iblock/f3f/f3f9fc20aa209ac66a7923d182b82719.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">алмазный пилинг</h3>
-                             <p class="card__price">5 000 тг</p>
-                             <div class="card__details">
-                                <p>Алмазный пилинг занимает всего 40 минут, а эффект заметен сразу же после процедуры – кожа разглаживается, становится более упругой, эластичной, приобретает здоровый цвет и сияние. Процедуру можно делать в любом возрасте, при любом типе кожи и в любой день круглый год.</p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://arasan-spa.kz/wp-content/uploads/ultrazvukovaya.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">ультразвуковая чистка</h3>
-                             <p class="card__price">6 000 тг</p>
-                             <div class="card__details">
-                                <p>Чистка лица ультразвуком – профессиональная аппаратная процедура, выполняемая с гигиенической и эстетической целью. Ультразвук, воздействуя безопасно и безболезненно для человека, проникает в глубинные слои кожи, «выбивая» оттуда частицы грязи, лишнего жира и слущивая ороговевшие клетки верхних слоев эпидермиса. </p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://delete.ru/wp-content/uploads/2022/06/tatuazh_udalenie_4.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">удаление татуажа</h3>
-                             <p class="card__price">5 000/4 000 тг</p>
-                             <div class="card__details">
-             
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://www.dlaser.ru/upload/resize_cache/iblock/ff6/768_520_2/ff689fc5a8fc2ee135143bd5968abc52.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">удаление тату</h3>
-                             <p class="card__price">От 4 000 тг</p>
-                             <div class="card__details">
-             
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://n1s1.elle.ru/7f/a8/e7/7fa8e76d58dd4d836de002ec40f19e7d/728x820_1_725cd21279eb3eb0f3425b8254b2be60@940x1059_0xc35dbb80_8039347381499364911.jpeg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">альгинатная маска</h3>
-                             <p class="card__price">3 000 тг</p>
-                             <div class="card__details">
-                                <p><strong>В чем смысл альгинатных масок?</strong><br>
-                                    Альгинатные маски универсальны и подходят для любого возраста и типа кожи: увлажняют сухую, нормализуют выработку себума у жирной, освежают и подтягивают зрелую кожу. Особенность маски в том, что она усиливает действие средств, нанесённых под неё.</p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://irinakhrustaleva.com/upload/medialibrary/c20/c205d002bfdb6b14a529ea056f19cba9.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">лазерное омоложение</h3>
-                             <p class="card__price">8 000 тг</p>
-                             <div class="card__details">
-                                <p>Лазерное омоложение диодным лазером – прекрасная возможность быстро и без риска осложнений улучшить состояние кожи лица, шеи и декольте. 
-                                    Система диодного омоложения сочетает две длины волны лазерного излучения в одном диодном излучателе, что позволяет обеспечить индивидуальный подход в каждом конкретном случае и отличные результаты в омоложении без риска повреждения эпидермиса.  Волна глубоко проникает в дерму и оказывает мощное биостимулирующее воздействие, запуская процессы клеточного самоомоложения.</p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card__item">
-                         <img src="https://irinakhrustaleva.com/upload/medialibrary/7ae/7ae29b5239e4d447bcd8bd4a6bcc889c.jpg" alt="">
-                         <div class="card__body">
-                             <h3 class="card__title">лазерное лечение акне</h3>
-                             <p class="card__price">8 000 тг</p>
-                             <div class="card__details">
-                                <p>Процедура лечения заключается в точечном термическом воздействии лазерного излучения длиной волны 810 нм. Проникая под кожу, оно достигает сальных желез фолликулов, нормализуя процесс выработки кожного жира и параллельно уничтожает бактерии, вызывающие акне.
-                                    В результате светового воздействия стимулируется и активируется местный кожный иммунитет, что ведет к подсушиванию высыпаний, их сокращению и улучшению состояния кожных покровов.</p>
-                             </div>
-                         </div>
-                     </div>
-                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="clients">
-        <div class="feedback__card">
-            <h2>почему мы ?</h2>
-        </div>
-        <div class="feedback__title">
-            <p><strong>более 1000+</strong><br>довольных клиентов</p>
-        </div>
-        <ul>
-            <li>Удаление волос всех типов</li>
-            <li>Отсутствие раздражений и покраснений</li>
-            <li>Полное отсутствие вросших волос</li>
-            <li>Самый долговременный результат</li>
-            <li>Отсутствие инфицирования</li>
-            <li>Гипоаллергенно и Безопасно</li>
-        </ul>
-    </div>
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-
-        <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img src="assets/feedback1.jpg" style="width:100%">
-          <div class="text"></div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img src="assets/feedback2.jpg" style="width:100%">
-          <div class="text"></div>
-        </div>
-        
-        <div class="mySlides fade">
-            <div class="numbertext"></div>
-            <img src="assets/feedback3.jpg" style="width:100%">
-            <div class="text"></div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext"></div>
-            <img src="assets/feedback4.jpg" style="width:100%">
-            <div class="text"></div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext"></div>
-            <img src="assets/feedback5.jpg" style="width:100%">
-            <div class="text"></div>
-          </div>
-
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
-    
-    </div>
-    <div id="price">
-        <h2 class="price_title">лазерная эпиляция</h2>
-<table class="price-table">
-  <tr>
-    <th>услуги</th>
-    <th>женский</th>
-    <th>мужской</th>
-  <tr>
-    <td>усики</td>
-    <td>1900</td>
-    <td>2500</td>
-  </tr>
-  <tr>
-    <td>шея (оконтовка)</td>
-    <td>2500</td>
-    <td>3900</td>
-  </tr>
-  <tr>
-    <td>руки до локтя</td>
-    <td>5900</td>
-    <td>7900</td>
-  </tr>
-  <tr>
-    <td>руки полностью</td>
-    <td>7900</td>
-    <td>9900</td>
-  </tr>
-  <tr>
-    <td>подмышечные впадины</td>
-    <td>3900</td>
-    <td>5000</td>
-  </tr>
-  <tr>
-    <td>линия живота</td>
-    <td>1900</td>
-    <td>3000</td>
-  </tr>
-  <tr>
-    <td>живот</td>
-    <td>4900</td>
-    <td>6000</td>
-  </tr>
-  <tr>
-    <td>спина</td>
-    <td>9900</td>
-    <td>13900</td>
-  </tr>
-  <tr>
-    <td>поясница</td>
-    <td>3900</td>
-    <td>5000</td>
-  </tr>
-  <tr>
-    <td>ягодицы</td>
-    <td>5500</td>
-    <td>7500</td>
-  </tr>
-  <tr>
-    <td>классическое бикини</td>
-    <td>4900</td>
-    <td>6900</td>
-
-  </tr>
-  <tr>
-    <td>глубокое бикини</td>
-    <td>6900</td>
-    <td>9900</td>
-  </tr>
-  <tr>
-    <td>ноги до колен</td>
-    <td>7900</td>
-    <td>9900</td>
-  </tr>
-  <tr>
-    <td>ноги полностью</td>
-    <td>13900</td>
-    <td>15900</td>
-
-  </tr>
-
-</table>
-</div>
-<div id="advantages">
-    <h2 class="advantage_title">преимущества</h2>
-    <div class="advatage-subtitle">
-        <p class=""><strong>преимущества лазерной эпиляции</strong> перед шугарингом и бритьем:</p>
-    </div>
-    <div class="body__advantage">
-        <div class="descr adaptive">
-            <h2 class>Безопасно:</h2>
-            <p>Отсутствие риска инфицирования.
-                Любой участок тела - лицо, ноги, интимные зоны, спина, где удалять
-                растительность станком проблематично и опасно. Никаких порезов.
+        <div class="master-bio">
+            <p>Здравствуйте! Меня зовут Вера.</p>
+            <p>Я профессиональный косметолог и помогаю людям сохранить молодость, красоту и здоровье
+                при помощи современных методов в косметологии.
             </p>
-        </div>
-        <div class="descr adaptive">
-            <h2>Отсутствие вросших волос и раздражения:</h2>
-            <p>Никаких вросших волосков. Подойдет обладателям чувствительной кожи, нет раздражений.
+            <p>В своей работе по удалению нежелательных волос, я использую
+                современный аппарат <strong>лазерной эпиляции.</strong>
             </p>
-        </div>
-        <div class="descr adaptive">
-            <h2>Гипоаллергенно:</h2>
-            <p>Никаких высыпаний и раздражений, как при шугаринге.<br>В процессе лазерной обработки
-                не применяется никаких дополнительных косметических средств, кроме контактного геля и антисептиков.
+            <p>Потому что, именно в этом аппарате применяются сразу две технологии,
+                которые дают максимальный результат и обеспечавают комфорт моих клиентов.
             </p>
-        </div>
-        <div class="descr adaptive">
-            <h2>Экономия времини, нерв и денег:</h2>
-            <p>Никаких переплат. Хоть паста и дешевле, но делать процедуру надо каждые 2-3 недели. Лазерная эпиляция
-                после курса процедур избавит вас от похода к косметологу на несколько лет.
+            <!-- <p>Кроме того, данная технология исключает риски и нежелательные последствия,
+                что делает процедуру эпиляции максимально безопасной для клиентов. А так же,
+                помогает сохранить эпидермис и обеспечивает возможность работы с 
+                любыми типами кожи.
             </p>
+            <p>Через мои руки прошли сотни людей и для каждого из них эта 
+                процедура была безболезненна и комфортна.
+            </p>
+            <p>И, так как эффект от <strong>лазерной эпиляции</strong> достигается за короткое время,
+                то уже в ближайшем будущем вы сможете радоваться своей красивой,
+                здоровой и гладкой коже!
+            </p>
+            <p>Приходите будем рады вам помочь!</p> -->
         </div>
-    </div>
-</div>
-<div id="master">
-    <h2>Кто будет делать вам процедуры</h2>
-    <div class="master__image">
-        <img src="" alt="">
-    </div>
-    <div class="master-name">
-        <strong>Вера Сарсекеева</strong>
-        <p>Дипломированный специалист с косметологическим образованием</p>
-    </div>
-    <div class="master-bio">
-        <p>Здравствуйте! Меня зовут Вера.</p>
-        <p>Я профессиональный косметолог и помогаю людям сохранить молодость, красоту и здоровье
-            при помощи современных методов в косметологии.
-        </p>
-        <p>В своей работе по удалению нежелательных волос, я использую
-            современный аппарат <strong>лазерной эпиляции.</strong>
-        </p>
-        <p>Потому что, именно в этом аппарате применяются сразу две технологии,
-            которые дают максимальный результат и обеспечавают комфорт моих пациентов.
-        </p>
-        <p>Кроме того, данная технология исключает риски и нежелательные последствия,
-            что делает процедуру эпиляции максимально безопасной для клиентов. А так же,
-            помогает сохранить эпидермис и обеспечивает возможность работы с 
-            любыми типами кожи.
-        </p>
-        <p>Через мои руки прошли сотни людей и для каждого из них эта 
-            процедура была безболезненна и комфортна.
-        </p>
-        <p>И, так как эффект от <strong>лазерной эпиляции</strong> достигается за короткое время,
-            то уже в ближайшем будущем вы сможете радоваться своей красивой,
-            здоровой и гладкой коже!
-        </p>
-        <p>Приходите будем рады вам помочь!</p>
     </div>
     <div class="sertificate">
+        <h2>Мои сертификаты и дипломы</h2>
         <section id="slider_bl">
             <div class="wrapper">
               <input checked type=radio name="slider" id="slide1" />
@@ -405,17 +76,17 @@
                   <article>
                     <div class="info top-left">
                       </div>
-                    <img src="assets/sertificate-1.jpg" />
+                    <img src="assets/sertificate-1.webp" />
                   </article>
                   <article>
                     <div class="info bottom-right">
                       </div>
-                    <img src="assets/sertificate-2.jpg" />
+                    <img src="assets/sertificate-2.webp" />
                   </article>
                   <article>
                     <div class="info bottom-left">
                       </div>
-                    <img src="assets/sertificate-3.jpg" />
+                    <img src="assets/sertificate-3.webp" />
                   </article>
                 </div>
               </div>
@@ -431,8 +102,565 @@
               </div>
             </div>
         </section>
-    </div>
  </div>
+ <!-- Об аппарате -->
+ <div class="laser-machine">
+    <div class="laser-title">
+        <h2>О аппарате:</h2>
+    </div>
+    <div class="laser-descr">
+        <h4>современный гибридный лазер "black hawk"</h4>
+    </div>
+    <div class="laser-subdescr">
+        <p><strong>Усовершенствованная технология мощного американского 
+            гибридного лазера 2 в 1 "BLACK HAWK"</strong>
+            делает его лидером по эпиляции из всех доступных способов и позволяет получать исключительные результаты в 
+            профессиональной косметологии.
+        </p>
+    </div>
+    <ul class="laser-menu">
+        <h5>Преимущества:</h5>
+        <li><span>*</span>Отсутствие болевых ощущений.</li>
+        <li><span>*</span>Комфортное самочувствие клиентов</li>
+        <li><span>*</span>Высокая эффективность удаления волос и быстрый результат.</li>
+        <li><span>*</span>Сокращенная длительность процедуры.</li>
+        <li><span>*</span>Эффективен для кожи всех типов.</li>
+        <li><span>*</span>Отсутствие побочных эффектов.</li>
+    </ul>
+ </div>
+ <!-- Конец -->
+    <!-- <div id="sale">
+        <div class="slider__sale">
+            <p>профессиональная лазерная эпиляция</p>
+            <h1>скидка 30% на первую процедуру</h1>
+            <div class="button">
+                <a onclick="slowScroll('#contacts')">записаться</a>
+            </div>
+        </div>
+    </div> -->
+    <div id="top">
+        <div class="intro">
+            <h2>что такое лазерная эпиляция:</h2>
+        </div>
+        <div class="descr">
+            <p><strong>лазерная эпиляция</strong>- это один из методов удаления нежелательных
+            волос. Под воздействием лазера волосяной фолликул разрушается без
+        последующего восстановления.</p>
+        <p>После процедуры волос полностью высыпается через 10-14 дней.
+            <strong>Результат виден сразу после первой процедуры</strong><br>
+            Поддерживающие процедуры необходимо делать 1-2 раза в год.
+        </p>
+        <p>
+        </p>
+        </div>
+<div class="dropdown">
+            <a class="dropbtn" onclick="dropDown2()">подробнее</a>
+        <div id="myDropdown2" class="dropdown-content">
+            <div id="price">
+                <div id="advantages">
+                    <h2 class="advantage_title">преимущества</h2>
+                    <div>
+                        <p class="advantage-subtitle"><strong>преимущества лазерной эпиляции</strong><br>перед шугарингом и бритьем:</p>
+                    </div>
+                    <div class="body__advantage">
+                        <div class="descr adaptive">
+                            <h2 class>Безопасно:</h2>
+                            <p>Отсутствие риска инфицирования.
+                                Любой участок тела - лицо, ноги, интимные зоны, спина, где удалять
+                                растительность станком проблематично и опасно. Никаких порезов.
+                            </p>
+                        </div>
+                        <div class="descr adaptive">
+                            <h2>Отсутствие вросших волос и раздражения:</h2>
+                            <p>Никаких вросших волосков. Подойдет обладателям чувствительной кожи, нет раздражений.
+                            </p>
+                        </div>
+                        <div class="descr adaptive">
+                            <h2>Гипоаллергенно:</h2>
+                            <p>Никаких высыпаний и раздражений, как при шугаринге.<br>В процессе лазерной обработки
+                                не применяется никаких дополнительных косметических средств, кроме контактного геля и антисептиков.
+                            </p>
+                        </div>
+                        <div class="descr adaptive">
+                            <h2>Экономия времини, нерв и денег:</h2>
+                            <p>Никаких переплат. Хоть паста и дешевле, но делать процедуру надо каждые 2-3 недели. Лазерная эпиляция
+                                после курса процедур избавит вас от похода к косметологу на несколько лет.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="price-price">Прайс</h3>
+        <table class="price-table">
+          <tr>
+            <th>услуги</th>
+            <th>женский</th>
+            <th>мужской</th>
+          </tr>
+          <tr>
+            <td>усики</td>
+            <td>1900</td>
+            <td>2500</td>
+          </tr>
+          <tr>
+            <td>шея (оконтовка)</td>
+            <td>2500</td>
+            <td>3900</td>
+          </tr>
+          <tr>
+            <td>руки до локтя</td>
+            <td>5900</td>
+            <td>7900</td>
+          </tr>
+          <tr>
+            <td>руки полностью</td>
+            <td>7900</td>
+            <td>9900</td>
+          </tr>
+          <tr>
+            <td>подмышечные впадины</td>
+            <td>3900</td>
+            <td>5000</td>
+          </tr>
+          <tr>
+            <td>линия живота</td>
+            <td>1900</td>
+            <td>3000</td>
+          </tr>
+          <tr>
+            <td>живот</td>
+            <td>4900</td>
+            <td>6000</td>
+          </tr>
+          <tr>
+            <td>спина</td>
+            <td>9900</td>
+            <td>13900</td>
+          </tr>
+          <tr>
+            <td>поясница</td>
+            <td>3900</td>
+            <td>5000</td>
+          </tr>
+          <tr>
+            <td>ягодицы</td>
+            <td>5500</td>
+            <td>7500</td>
+          </tr>
+          <tr>
+            <td>классическое бикини</td>
+            <td>4900</td>
+            <td>6900</td>
+        
+          </tr>
+          <tr>
+            <td>глубокое бикини</td>
+            <td>6900</td>
+            <td>9900</td>
+          </tr>
+          <tr>
+            <td>ноги до колен</td>
+            <td>7900</td>
+            <td>9900</td>
+          </tr>
+          <tr>
+            <td>ноги полностью</td>
+            <td>13900</td>
+            <td>15900</td>
+        
+          </tr>
+        
+        </table>
+        <div class="combo-price">
+            <h2 class="combo-title">КОМБО</h2>
+            <div class="combo-container">
+                <div class="combo-item">
+                    <img src="" alt="">
+                    <h3>КОМБО №1</h3>
+                    <p>Руки полностью</p>
+                    <p>Ноги полностью</p>
+                    <p>Глубокое бикини</p>
+                    <p>Подмышечные впадины</p>
+                    <span>+</span>
+                    <p class="red">Линия на животе<br>
+                        в ПОДАРОК</p>
+                        <h2>26.000 тг</h2>
+                </div>
+                <div class="combo-item">
+                    <img src="" alt="">
+                    <h3>КОМБО №2</h3>
+                    <p>Ноги полностью</p>
+                    <p>Глубокое бикини</p>
+                    <p>Подмышечные впадины</p>
+                    <span>+</span>
+                    <p class="red">усики<br>
+                        в ПОДАРОК</p>
+                        <h2 class="combo-sale">19.700 тг</h2>
+                </div>
+                <div class="combo-item">
+                    <img src="" alt="">
+                    <h3>КОМБО №3</h3>
+                    <p>Глубокое бикини</p>
+                    <p>Подмышечные впадины</p>
+                    <p></p>
+                    <span>+</span>
+                    <p class="red" style="padding-bottom: 20px;">усики<br>
+                        в ПОДАРОК</p>
+                        <h2 class="combo-sale">8.600 тг</h2>
+                </div>
+                <div class="combo-item">
+                    <img src="" alt="">
+                    <h3>КОМБО №4</h3>
+                    <p>Руки до локтя</p>
+                    <p>Ноги до колен</p>
+                    <p></p>
+                    <span>+</span>
+                    <p class="red" style="padding-bottom: 15px;">усики<br>
+                        в ПОДАРОК</p>
+                        <h2 class="combo-sale">11.000 тг</h2>
+                </div>
+                <div class="combo-item">
+                    <img src="" alt="">
+                    <h3>КОМБО №5</h3>
+                    <p>Руки полностью</p>
+                    <p>Глубокое бикини</p>
+                    <p>Подмышечные впадины</p>
+                    <span>+</span>
+                    <p class="red">линию на животе<br>
+                        в ПОДАРОК</p>
+                        <h2 class="combo-sale">15.800 тг</h2>
+                </div>
+                <div class="combo-item">
+                    <img src="" alt="">
+                    <h3>КОМБО №6</h3>
+                    <p>Глубокое бикини</p>
+                    <p>Подмышечные впадины</p>
+                    <p>Голени</p>
+                    <span>+</span>
+                    <p class="red">усики<br>
+                        в ПОДАРОК</p>
+                        <h2 class="combo-sale">14.900 тг</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="peeling">
+        <div class="intro">
+            <h2>что такое пилинг:</h2>
+        </div>
+        <div class="peeling-descr">
+            <p>Пилинг – процедура очистки лица, призванная <strong>улучшить внешний вид и состояние кожи.</strong> Существуют различные разновидности пилингов, одна из которых выполняется с помощью специальных химических составов, которые растворяют ороговевшие клетки кожи.</p>
+        </div>
+<div class="dropdown">
+            <a class="dropbtn" onclick="dropDown()">подробнее</a>
+            <div id="myDropdown" class="dropdown-content">
+                <h2>Виды пилингов:</h2>
+                <div id="services">
+                    <div class="card__carbone">
+                        <img class="card__item" src="https://saloncitystyle.ru/wp-content/uploads/2019/05/Depositphotos_183266262_s-2019.jpg" alt="">
+                        <div class="card__carbone-body">
+                            <h3 class="card__title">карбоновый пилинг</h3>
+                            <p class="service-price">8.000 тг</p>
+                            <div class="dropdown">
+                                <a onclick="dropDown3()" class="dropbtn">узнать больше</a>
+                                <div id="myDropdown3" class="dropdown-content">
+                                    <div class="card__details">
+                                <p>Эффект от процедуры достигается за счет объединения свойств лазерных лучей и карбона углерода. Вместе они способны избавить ваше лицо от черных точек, угрей и высыпаний, сделать кожу более гладкой и сияющей.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__container">
+                     <div class="card__item">
+                         <!-- <img src="https://beauty-medicine.ru/wp-content/uploads/2019/07/img-uslugi-007.jpg" alt=""> -->
+                         <div class="card__body">
+                             <h3 class="card__title">салициловый пилинг</h3>
+                             <p class="service-price">8.000 тг</p>
+                             <div class="dropdown">
+                                <a onclick="dropDown11()" class="dropbtn">узнать больше</a>
+                                <div id="myDropdown11" class="dropdown-content">
+                                    <div class="card__details">
+                                        <strong>Чем полезен салициловый пилинг?</strong><br>
+                                        <p>Эта процедура выравнивает рельеф и цвет кожных покровов, обладает мощным антисептическим действием, выраженными очищающими свойствами, способствует нормализации работы сальных желез и сужению пор.</p>
+                                     </div>
+                                </div>
+                            </div>
+                             
+                         </div>
+                     </div>
+                     <div class="card__item">
+                         <!-- <img src="https://ooo-medicina.ru/wp-content/uploads/2019/08/2bAPth_10.jpg" alt=""> -->
+                         <div class="card__body">
+                             <h3 class="card__title">миндальный пилинг</h3>
+                             <p class="service-price">8.000 тг</p>
+                             <div class="dropdown">
+                                <a onclick="dropDown4()" class="dropbtn">узнать больше</a>
+                                <div id="myDropdown4" class="dropdown-content">
+                                    <div class="card__details">
+                                        <p>Миндальный пилинг дает выраженный лифтинг-эффект. После процедуры активизируется клеточное обновление за счет выработки коллагена и эластина, разглаживаются неглубокие морщинки. Кислота, разрыхляя верхние кожные слои, удаляет, отшелушивает ненужные частички кожи.</p>
+                                     </div>
+                                </div>
+                            </div>
+                             
+                         </div>
+                     </div>
+                     <div class="card__item">
+                         <!-- <img src="https://lanita.ru/wp-content/uploads/2015/06/071_zoom.jpg" alt=""> -->
+                         <div class="card__body">
+                             <h3 class="card__title">гликолевый пилинг</h3>
+                             <p class="service-price">8.000 тг</p>
+                             <div class="dropdown">
+                                <a onclick="dropDown5()" class="dropbtn">узнать больше</a>
+                                <div id="myDropdown5" class="dropdown-content">
+                                    <div class="card__details">
+                                        <strong>Какой эффект дает гликолевый пилинг?</strong><br>
+                                        <p>Использование гликолевых кислот улучшает тон и рельеф лица и контролирует выработку кожного сала за счет отшелушивания верхнего слоя эпидермиса. Клетки кожи обновляются, осветляя пигментные пятна и придавая коже сияние. Процедура также глубоко очищает поры и при регулярном проведении предостерегает от их закупоривания.</p>
+                                     </div>
+                                </div>
+                            </div>
+                             
+                         </div>
+                     </div>
+                     <div class="card__item">
+                         <!-- <img src="https://salon-lanet.ru/upload/iblock/f3f/f3f9fc20aa209ac66a7923d182b82719.jpg" alt=""> -->
+                         <div class="card__body">
+                             <h3 class="card__title">алмазный пилинг</h3>
+                             <p class="service-price">8.000 тг</p>
+                             <div class="dropdown">
+                                <a onclick="dropDown6()" class="dropbtn">узнать больше</a>
+                                <div id="myDropdown6" class="dropdown-content">
+                                    <div class="card__details">
+                                        <p>Алмазный пилинг с пептидами:
+
+                                            Экстракт изофлавонов ферментированных соевых бобов очищает поры без раздражения кожи. Алмазный порошок делает текстуру кожи ровной и сияющей. Пептиды придают эластичность коже, способствуют регенерации кожи.</p>
+                                     </div>
+                                </div>
+                            </div>
+                            
+                         </div>
+                     </div>
+                     <div class="card__item">
+                         <!-- <img src="https://arasan-spa.kz/wp-content/uploads/ultrazvukovaya.jpg" alt=""> -->
+                         <div class="card__body">
+                             <h3 class="card__title">ультразвуковая чистка</h3>
+                             <p class="service-price">8.000 тг</p>
+                             <div class="dropdown">
+                                <a onclick="dropDown7()" class="dropbtn">узнать больше</a>
+                                <div id="myDropdown7" class="dropdown-content">
+                                    <div class="card__details">
+                                        <p>Чистка лица ультразвуком – профессиональная аппаратная процедура, выполняемая с гигиенической и эстетической целью. Ультразвук, воздействуя безопасно и безболезненно для человека, проникает в глубинные слои кожи, «выбивая» оттуда частицы грязи, лишнего жира и слущивая ороговевшие клетки верхних слоев эпидермиса. </p>
+                                     </div>
+                                </div>
+                            </div>
+                            
+                         </div>
+                     </div>
+                     <div class="card__item">
+                         <!-- <img src="https://n1s1.elle.ru/7f/a8/e7/7fa8e76d58dd4d836de002ec40f19e7d/728x820_1_725cd21279eb3eb0f3425b8254b2be60@940x1059_0xc35dbb80_8039347381499364911.jpeg" alt=""> -->
+                         <div class="card__body">
+                             <h3 class="card__title">альгинатная маска</h3>
+                             <p class="service-price">8.000 тг</p>
+                             <div class="dropdown">
+                                <a onclick="dropDown8()" class="dropbtn">узнать больше</a>
+                                <div id="myDropdown8" class="dropdown-content">
+                                    <div class="card__details">
+                                        <p><strong>В чем смысл альгинатных масок?</strong><br>
+                                            Альгинатные маски универсальны и подходят для любого возраста и типа кожи: увлажняют сухую, нормализуют выработку себума у жирной, освежают и подтягивают зрелую кожу. Особенность маски в том, что она усиливает действие средств, нанесённых под неё.</p>
+                                     </div>
+                                </div>
+                            </div>
+                            
+                         </div>
+                     </div>
+                     <div class="card__item">
+                         <!-- <img src="https://irinakhrustaleva.com/upload/medialibrary/c20/c205d002bfdb6b14a529ea056f19cba9.jpg" alt=""> -->
+                         <div class="card__body">
+                             <h3 class="card__title">лазерное омоложение</h3>
+                             <p class="service-price">8.000 тг</p>
+                             <div class="dropdown">
+                                <a onclick="dropDown9()" class="dropbtn">узнать больше</a>
+                                <div id="myDropdown9" class="dropdown-content">
+                                    <div class="card__details">
+                                        <p>Лазерное омоложение диодным лазером – прекрасная возможность быстро и без риска осложнений улучшить состояние кожи лица, шеи и декольте. 
+                                            Система диодного омоложения сочетает две длины волны лазерного излучения в одном диодном излучателе, что позволяет обеспечить индивидуальный подход в каждом конкретном случае и отличные результаты в омоложении без риска повреждения эпидермиса.  Волна глубоко проникает в дерму и оказывает мощное биостимулирующее воздействие, запуская процессы клеточного самоомоложения.</p>
+                                     </div>
+                                </div>
+                            </div>
+                             
+                         </div>
+                     </div>
+                     <div class="card__item">
+                         <!-- <img src="https://irinakhrustaleva.com/upload/medialibrary/7ae/7ae29b5239e4d447bcd8bd4a6bcc889c.jpg" alt=""> -->
+                         <div class="card__body">
+                             <h3 class="card__title">лазерное лечение акне</h3>
+                             <p class="service-price">8.000 тг</p>
+                             <div class="dropdown">
+                                <a onclick="dropDown10()" class="dropbtn">узнать больше</a>
+                                <div id="myDropdown10" class="dropdown-content">
+                                    <div class="card__details">
+                                        <p>Процедура лечения заключается в точечном термическом воздействии лазерного излучения длиной волны 810 нм. Проникая под кожу, оно достигает сальных желез фолликулов, нормализуя процесс выработки кожного жира и параллельно уничтожает бактерии, вызывающие акне.
+                                            В результате светового воздействия стимулируется и активируется местный кожный иммунитет, что ведет к подсушиванию высыпаний, их сокращению и улучшению состояния кожных покровов.</p>
+                                     </div>
+                                </div>
+                            </div>
+                             
+                         </div>
+                     </div>
+                     <div class="card__item">
+                        <!-- <img src="https://delete.ru/wp-content/uploads/2022/06/tatuazh_udalenie_4.jpg" alt=""> -->
+                        <div class="card__body">
+                            <h3 class="card__title">удаление татуажа</h3>
+                            <p class="service-price">8.000 тг</p>
+                            <div class="card__details">
+            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__item">
+                        <!-- <img src="https://www.dlaser.ru/upload/resize_cache/iblock/ff6/768_520_2/ff689fc5a8fc2ee135143bd5968abc52.jpg" alt=""> -->
+                        <div class="card__body">
+                            <h3 class="card__title">удаление тату</h3>
+                            <p class="service-price">8.000 тг</p>
+                            <div class="card__details"> 
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="combo-price">
+                    <h2 class="combo-title">КУРСЫ</h2>
+                    <div class="combo-container">
+                        <div class="combo-item">
+                            <img src="" alt="">
+                            <p class="combo-title-service">карбоновый пилинг</p>
+                            <p class="blue">курс из 5 процедур</p>
+                                <div class="combo-sale-service"><p>35.000 тг</p></div>
+                        </div>
+                        <div class="combo-item">
+                            <img src="" alt="">
+                            <p class="combo-title-service">карбоновый пилинг</p>
+                            <span>+</span>
+                            <p class="blue">альгитная маска с лифтинг
+                                эффектом и увжнением</p>
+                                <div class="sub-sale">9.000 тг</div>
+                                <span class="blue">курс из 5 процедур</span>
+                                <div class="combo-sale-service">42.000 тг</div>
+                        </div>
+                        <div class="combo-item">
+                            <img src="" alt="">
+                            <p class="combo-title-service">поверхностный пилинг</p>
+                            <div class="sub-sale">5.000 тг/<br>
+                            20.000 тг</div>
+                            <p></p>
+                            <span>+</span>
+                            <p class="blue" style="">Альгитная маска с лифтинг эффектом и увлажнением</p>
+                                <div class="combo-sale-service-p">6.000 тг /<br> 25.000 тг</div>
+                        </div>
+                        <div class="combo-item">
+                            <img src="" alt="">
+                            <p  class="acne">Лазерное омоложение(лицо) /
+                                лечение акне
+                            </p>
+                            <div class="sub-sale">8.000 тг</div>
+                            <span>+</span>
+                            <p class="blue" style="padding-bottom: 15px;">курс из 5 процедур</p>
+                                <div class="combo-sale-service">35.000 тг</div>
+                        </div>
+                        <div class="combo-item">
+                            <img src="" alt="">
+                            <p  class="acne">Лазерное омоложение(лицо) /
+                                лечение акне
+                            </p>
+                            <span>+</span>
+                            <p class="blue">альгинатная маска с лифтинг эффектом и увжнением</p>
+                                <div class="sub-sale">9.000 тг</div>
+                                <p class="blue">курс из 5 процедур</p>
+                                <div class="combo-sale-service">40.000 тг</div>
+                        </div>
+                        <div class="combo-item-last">
+                            <img src="" alt="">
+                            <p  class="acne">Лазерное омоложение Лицо + Шея
+                            </p>
+                            <div class="sub-sale">10.000 тг/<br>
+                                45.000 тг</div>
+                            <p class="red">Альгитная маска<br>
+                                в ПОДАРОК</p>
+                                <p  class="acne">Лазерное омоложение Лицо + Шея
+                                </p>
+                                <div class="combo-sale-service-p">11.000 тг/<br>
+                                    50.000 тг</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="clients">
+        <div class="feedback__card">
+            <h2>почему мы ?</h2>
+        </div>
+        <div class="feedback__title">
+            <p><strong>более 1000+</strong><br>довольных клиентов</p>
+        </div>
+        <!-- <ul>
+            <li>Удаление волос всех типов</li>
+            <li>Отсутствие раздражений и покраснений</li>
+            <li>Полное отсутствие вросших волос</li>
+            <li>Самый долговременный результат</li>
+            <li>Отсутствие инфицирования</li>
+            <li>Гипоаллергенно и Безопасно</li>
+        </ul> -->
+        <div id="feedback" class="slideshow-container">
+            <h2>отзывы клиентов</h2>
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="assets/feedback1.webp" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="assets/feedback2.webp" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="assets/feedback3.webp" style="width:100%">
+                <div class="text"></div>
+              </div>
+    
+              <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="assets/feedback4.webp" style="width:100%">
+                <div class="text"></div>
+              </div>
+    
+              <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="assets/feedback5.webp" style="width:100%">
+                <div class="text"></div>
+              </div>
+    
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+        
+        </div>
+    </div>
+</div>
+ 
+    <!-- Slideshow container -->
+
+
  <div id="contacts">
     <h5>записаться</h5>
     <form action="#" id="form_input">
