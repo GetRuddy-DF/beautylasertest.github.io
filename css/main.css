@@ -239,13 +239,14 @@ header #logo span {
     padding: 0 20px;
 }
 .adaptive h2 {
-    font-size: 25px;
+    padding-top: 15px;
+    font-size: 20px;
     font-weight: 700;
 }
 .descr p {
     font-size: 20px;
     font-weight: 400;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 .descr p strong {
     text-transform: uppercase;
@@ -397,6 +398,7 @@ td {
 }
 .combo-price {
     padding: 100px 0;
+    background-color: #7d90ae;
 }
 .combo-title {
     padding: 20px 0;
@@ -412,7 +414,7 @@ td {
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
-.combo-item {
+/* .combo-item {
     margin: auto;
     text-align: center;
     background-color: #fff;
@@ -420,8 +422,10 @@ td {
     height: 260px;
     border-radius: 20px;
     box-shadow: 0 5px 10px 0 #fff;
+} */
+.combo-item img {
+    width: 250px;
 }
-
 .combo-item-last {
     margin: auto;
     text-align: center;
@@ -606,7 +610,8 @@ td {
 }
 
 .master-name p {
-    color: #bebebe;
+    color: #000;
+    font-weight: 400;
 }
 
 .master-bio {
