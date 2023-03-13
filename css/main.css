@@ -425,6 +425,7 @@ td {
 } */
 .combo-item img {
     width: 250px;
+    border-radius: 20px;
 }
 .combo-item-last {
     margin: auto;
