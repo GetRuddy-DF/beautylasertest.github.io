@@ -249,6 +249,7 @@ header #logo span {
     /* padding-top: 20px; */
 }
 .descr p strong {
+    font-size: 17px;
     text-transform: uppercase;
 }
 
@@ -1022,7 +1023,7 @@ h1, h2, h3, h4, h5 {
     padding: 16px 20px;
     font-size: 16px;
     border: none;
-    background-color: #3498DB;
+    background-color: #7d90ae;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -1123,5 +1124,15 @@ footer {
     opacity: .4;
 }
 @media screen and (max-width:768px) {
+    .gift__item img {
+        width: 100%;
+    }
+}   
 
+.gift__item {
+    padding: 10px 0;
+}
+
+.gift__item img {
+    padding: 5px 5px;
 }
